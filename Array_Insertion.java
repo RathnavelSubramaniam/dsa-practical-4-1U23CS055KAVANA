@@ -22,7 +22,7 @@ public class Array_Insertion {
             arr[i + 1] = arr[i]; 
         }
         arr[p - 1] = e;
-        len++;
+        
         System.out.println("After Inserting");
         System.out.println("Length of the array:"+(len+1));
         for (int i = 0; i < len; i++) {
