@@ -6,7 +6,7 @@ public class Array_Insertion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the length of the Array");
         len = sc.nextInt();
-        int arr[] = new int[len + 1]; // Array size is increased by 1 to accommodate the new element
+        int arr[] = new int[len + 1]; 
         System.out.println("Enter " + len + " element(s) to insert");
         for (int i = 0; i < len; i++) {
             arr[i] = sc.nextInt();
