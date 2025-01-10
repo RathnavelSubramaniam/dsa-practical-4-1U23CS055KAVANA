@@ -23,10 +23,10 @@ public class Array_Insertion {
         }
         arr[p - 1] = e;
         len++;
-        System.out.println("Updated length of the array: " + len);
-        System.out.println("Elements of the updated array:");
+        System.out.println("After Inserting");
+        System.out.println("Length of the array:"+(len+1));
         for (int i = 0; i < len; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.println("arr["+i+"]=" +arr[i]);
         }
     }
 }
