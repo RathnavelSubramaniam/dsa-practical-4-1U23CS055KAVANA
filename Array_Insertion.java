@@ -25,7 +25,7 @@ public class Array_Insertion {
         
         System.out.println("After Inserting");
         System.out.println("Length of the array:"+(len+1));
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i <=len; i++) {
             System.out.println("arr["+i+"]="+arr[i]);
         }
     }
